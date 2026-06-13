@@ -4,10 +4,11 @@ from fastapi.middleware.cors import CORSMiddleware
 import mysql.connector
 from mysql.connector import Error
 db_connect = {
-      "host":"localhost",
-      "user":"root",
-      "password":"Jitu@143",
-      "database":"zoo"
+     "host": "acela.proxy.rlwy.net",
+     "port": 53912,
+     "user": "root",
+     "password": "zovOSOfkrMiqSmbQJhzPMmRYOXdhRStU",
+     "database": "railway"
 }
 
 def connect():
