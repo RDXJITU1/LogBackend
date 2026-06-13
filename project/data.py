@@ -22,7 +22,7 @@ def connect():
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
-    allow_origins = ["*"],
+    allow_origins = ["login-form-theta-rust.vercel.app"],
     allow_methods = ["*"],
     allow_headers = ["*"]
 )
